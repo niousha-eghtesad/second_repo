@@ -1,0 +1,21 @@
+برای اضافه کردن همه فایل ها به حالت stage
+git add . 
+
+برای unstage کردن فایل
+git restore --staged a.txt
+
+
+برای نمایش commits
+git log
+
+
+برای نمایش commits در یک خط
+git log --oneline 
+
+
+برای دیدن توضیحات بیشتر
+git log --stat
+
+
+در دستور gir log --oneline
+head درواقع اشاره مینه به اخرین کامیتی که داخل پروژه شما وجود داشته 
